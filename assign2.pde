@@ -42,7 +42,7 @@ void setup ()
   end2 = loadImage("img/end2.png");
   
   //hp
-  blood=200;
+  blood=40;
   
   //enemy
   enemy2=floor(random(60,440));
@@ -166,7 +166,7 @@ void draw ()
         if(mouseY>300 && mouseY<340){
           if(mousePressed){
             gameState=2;
-            blood = 200;
+            blood = 40;
             fx=width-50;
             fy=height/2;
         }else{
