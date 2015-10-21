@@ -145,8 +145,8 @@ void draw ()
        }
    
        //fighter boundary detection
-       if (fx > width) {
-         fx = width;
+       if (fx > width-50) {
+         fx = width-50;
        }
        if (fx < 0) {
          fx = 0;
