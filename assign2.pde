@@ -127,6 +127,7 @@ void draw ()
         if(blood>=200){
           blood=200;
         }
+        tr1=floor(random(100,500));
         tr2=floor(random(60,400));
       }
   
